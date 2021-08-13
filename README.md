@@ -1,14 +1,12 @@
-# Learning template [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/hchiam/learning-template/blob/main/LICENSE)
+# Learning React Error Boundaries [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/hchiam/learning-template/blob/main/LICENSE)
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-(To create a convenience script repo, use this template instead: https://github.com/hchiam/convenience)
+<https://github.com/hchiam/learning-reactjs>
 
-(To create a website fast, use a code generator like [`create-next-app`](https://github.com/hchiam/learning-nextjs), [`sapper`](https://github.com/hchiam/learning-sapper), a [svelte template](https://github.com/sveltejs/template), or [`yo`](https://yeoman.io/generators) )
+<https://github.com/hchiam/learning-reactjs>
 
-<!-- Add reference link(s) here -->
-
-## From scratch
+<!-- ## From scratch
 
 Using [`yarn`](https://github.com/hchiam/learning-yarn):
 
@@ -26,11 +24,13 @@ And then:
 
 ```bash
 
-```
+``` -->
 
-## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
+<!-- ## Starting by testing out this repo -->
 
-Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
+<!-- Replace "template"s and "# and then ..."s in this section -->
+
+<!-- Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
 
 ```bash
 git clone https://github.com/hchiam/learning-template.git && cd learning-template && yarn; # and then ...
@@ -40,4 +40,4 @@ Or with `npm`: (triple-click to select all)
 
 ```bash
 git clone https://github.com/hchiam/learning-template.git && cd learning-template && npm install; # and then ...
-```
+``` -->
