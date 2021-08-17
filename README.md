@@ -6,9 +6,11 @@ Error boundaries are like `catch` blocks but for components. Handle errors in a 
 
 Note: error boundaries don't catch errors in event handlers (just use `catch`), asynchronous code (like `setTimeout` or `requestAnimationFrame`), SSR, or errors thrown in the error boundary itself (like a `catch` block too). By default as of React 16, errors not caught in any error boundary will break the whole app, to prevent users from performing unintended actions. So use error boundaries to insulate potential sources of errors from the rest of the app. Also, you have to use a class component to make an error boundary (not a functional component).
 
-`static getDerivedStateFromError(error) {}`
+Use `static getDerivedStateFromError(error) {}` to turn the class component into an error boundary with the ability to render a fallback component.
 
-`componentDidCatch(error, errorInfo) {}`
+And/or:
+
+Use `componentDidCatch(error, errorInfo) {}` to turn the class component into an error boundary with the ability to log error info.
 
 ```jsx
 <ErrorBoundary FallbackComponent={CharacterFallback}>
