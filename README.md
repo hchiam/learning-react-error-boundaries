@@ -1,4 +1,4 @@
-# Learning [React](https://github.com/hchiam/learning-reactjs) Error Boundaries [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/hchiam/learning-template/blob/main/LICENSE)
+# Learning [React](https://github.com/hchiam/learning-reactjs) Error Boundaries
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
