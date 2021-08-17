@@ -11,9 +11,9 @@ And/or:
 Use `componentDidCatch(error, errorInfo) {}` to turn the class component into an error boundary with the ability to log error info.
 
 ```jsx
-<ErrorBoundary FallbackComponent={CharacterFallback}>
+<CustomErrorBoundary FallbackComponent={CharacterFallback}>
   <ComponentWhereErrorMightOccur />
-</ErrorBoundary>
+</CustomErrorBoundary>
 ```
 
 Alternatively, there's also a `useErrorHandler` hook:
