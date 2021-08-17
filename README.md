@@ -16,7 +16,7 @@ Use `componentDidCatch(error, errorInfo) {}` to turn the class component into an
 </CustomErrorBoundary>
 ```
 
-Alternatively, there's also a `useErrorHandler` hook:
+Alternatively, there's also `react-error-boundary` that provides a pre-built `<ErrorBoundary/>` or a `useErrorHandler` hook:
 
 ```jsx
 const handleError = useErrorHandler();
