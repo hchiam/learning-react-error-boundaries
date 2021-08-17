@@ -16,7 +16,7 @@ class ErrorBoundary extends React.Component {
 
   render() {
     return this.state.hasError ? (
-      <p>Something went wrong. See console log for details.</p>
+      <p>This simulates something going wrong. See console log for details.</p>
     ) : (
       this.props.children
     );
@@ -40,7 +40,7 @@ class ContainerToTriggerErrorLater extends React.Component {
     if (this.state.count <= 0) throw new Error("Intentional error.");
     return (
       <>
-        <p>Countdown:{this.state.count}</p>
+        <p>Countdown: {this.state.count}</p>
         <button onClick={this.handleClick}>count down</button>
         {/* {this.state.count <= 0 && <IntentionalError />} */}
       </>
