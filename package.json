@@ -1,16 +1,25 @@
 {
-  "name": "learning-template",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/hchiam/learning-template.git",
+  "name": "learning-react-error-boundaries",
+  "main": "example.js",
+  "repository": "https://github.com/hchiam/learning-react-error-boundaries.git",
   "author": "hchiam <hchiam@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "yarn start",
+    "start": "yarn build; open example.html;",
+    "build": "babel example.js --out-file dist/example.js;",
     "test": "jest --bail --findRelatedTests **/*.js",
     "lint": "prettier --write *.{js,css,html,scss,json,md,ts,tsx}"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
     "husky": "^4.3.0",
     "jest": "^27.0.4",
     "lint-staged": "^11.0.0",

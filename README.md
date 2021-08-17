@@ -33,3 +33,12 @@ _**Note:**_ error boundaries don't catch errors in event handlers (just use `cat
 <https://reactjs.org/docs/error-boundaries.html>
 
 <https://blog.logrocket.com/error-handling-react-error-boundary>
+
+<https://codepen.io/hchiam/pen/NWjVjXR?editors=0010>
+
+## Example in this repo
+
+```bash
+yarn
+yarn dev
+```
